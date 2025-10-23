@@ -5,7 +5,7 @@
 [2025-06-01 08:15:47] [INFO] New order #12345 created for customer ID 789
 [2025-06-01 08:16:12] [WARNING] Slow query detected (query took 2.3s): SELECT * FROM orders WHERE created_at > '2025-05-01'
 [2025-06-01 08:17:45] [INFO] Payment processing started for order #12345
-[2025-06-01 08:17:48] [ERROR] Payment gateway timeout after 30s for transaction TX78901234
+[2025-06-01 08:17:48] [ERROR] payment gateway timeout after 30s for transaction TX78901234
 [2025-06-01 08:17:49] [INFO] Retrying payment for order #12345
 [2025-06-01 08:18:01] [INFO] Payment successful for order #12345
 [2025-06-01 08:22:14] [INFO] User jane.smith logged in successfully
