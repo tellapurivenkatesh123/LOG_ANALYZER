@@ -1,9 +1,9 @@
 ===========================log-analysis=======================
 ================================================================================
-/home/venki/logs/system.log
-/home/venki/logs/application.log
+/home/venki/LOG_ANALYZER/system.log
+/home/venki/LOG_ANALYZER/application.log
 =================================================================================
-============================ FETCHING IN /home/venki/logs/system.log =================================
+============================ FETCHING IN /home/venki/LOG_ANALYZER/system.log =================================
 ============================== ERROR ISSUES =======================================
 Jun  1 01:20:18 server-prod-01 sshd[23954]: [ERROR] Failed password for root from 198.51.100.23 port 63122 ssh2
 Jun  1 01:20:19 server-prod-01 sshd[23954]: [ERROR] Failed password for root from 198.51.100.23 port 63122 ssh2
@@ -42,9 +42,9 @@ Jun  1 04:40:15 server-prod-01 kernel: [59415.678901] [CRITICAL] MCE: [Hardware 
 
 ==============================================================================
 
-============================ FETCHING IN /home/venki/logs/application.log =================================
+============================ FETCHING IN /home/venki/LOG_ANALYZER/application.log =================================
 ============================== ERROR ISSUES =======================================
-[2025-06-01 08:17:48] [ERROR] Payment gateway timeout after 30s for transaction TX78901234
+[2025-06-01 08:17:48] [ERROR] payment gateway timeout after 30s for transaction TX78901234
 [2025-06-01 08:25:48] [ERROR] Insufficient disk space for file upload
 [2025-06-01 08:41:33] [ERROR] Invalid product code: PRD-404-NOTFOUND
 [2025-06-01 08:55:19] [ERROR] Failed to update product #5678 - Database constraint violation

@@ -9,9 +9,9 @@ cat << "EOF"
 
 EOF
 
-path="/home/venki/logs/"
+path="/home/venki/LOG_ANALYZER/"
 err_types=('ERROR' 'FATAL' 'CRITICAL')
-logfile="/home/venki/logs/log_report.txt"
+logfile="/home/venki/LOG_ANALYZER/log_report.txt"
 echo "===========================log-analysis=======================" > "$logfile"
 
 echo "================================================================================" >> "$logfile"
